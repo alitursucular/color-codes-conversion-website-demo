@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>What is what is HSB/HSV?</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/sidenavigation.css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/conversionpagefunctions.js"></script>
+</head>
+
+<body>
+    <div id="sideNav" class="sidenav">
+        <a href="javascript:void(0)" id="closeNav" class="closebtn">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="input-tips.html">Input Tips</a>
+        <a href="what-is-rgba.html">What is RGB(A)?</a>
+        <a href="what-is-hex.html">What is HEX?</a>
+        <a href="what-is-cmyk.html">What is CMYK?</a>
+        <a href="what-is-hsl.html">What is HSL?</a>
+        <a href="what-is-hsb-hsv.html">What is HSB/HSV?</a>
+        <a href="bugs-and-feedback.html">Bugs & Feedback</a>
+    </div>
+
+    <div class="container">
+        <nav class="navbar navbar-light p-0 pt-3">
+            <span id="openNav" class="navbar-brand mb-0">&#9776;</span>
+            <span class="logoSubpages text-right">colorconversion.co ™</span>
+        </nav>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center subject">what is <b class="green">HSB/HSV</b> ?</h1>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12 subjectDetails">
+                <p>Hue, Saturation, Value or <b>HSV</b> is a color model that describes <a
+                        href="http://desktoppub.about.com/od/glossary/g/Color.htm" target="_blank">colors</a> (hue or
+                    tint) in terms of their shade (saturation or amount of gray) and their brightness (<a
+                        href="http://desktoppub.about.com/od/glossary/g/Value.htm" target="_blank">value</a> or
+                    luminance). Also Known As: <b>HSB</b> ( <b>h</b>ue, <b>s</b>aturation, <b>b</b>rightness )</p>
+
+                <p>The HSV color wheel may be depicted as a cone or cylinder. Instead of Value, the color model may use
+                    Brightness, making it HSB (Photoshop uses HSB).</p>
+                <ul>
+                    <li><b>H</b>ue is expressed as a number from 0 to 360 degrees representing hues of red (starts at
+                        0), yellow (starts at 60), green (starts at 120), cyan (starts at 180), blue (starts at 240),
+                        and magenta (starts at 300). </li>
+                    <li><b>S</b>aturation is the amount of gray (0% to 100%) in the color.</li>
+                    <li><b>V</b>alue (or <b>B</b>rightness) works in conjunction with saturation and describes the
+                        brightness or intensity of the color from 0% to 100%. </li>
+                </ul>
+
+                <p>For detailed descriptions of HSV, HSB, and the similar <a
+                        href="http://webdesign.about.com/od/color/ss/hsl-colors.htm" target="_blank"></a> models:</p>
+                <ul>
+                    <li>Tech-FAQ: Hue, Saturation and Value explains the color model.<br> <i>"The HSV color space is
+                            quite similar to the way in which humans perceive color."</i></li>
+                    <li>Tech-FAQ: Hue, Saturation, and Lightness explains this color model and how it compares to
+                        HSV.<br> <i>"Because the HSL model keeps the light and saturation aspects of the color model
+                            unique from each other, it tends to be more useful for those wishing to take advantage of
+                            these attributes in their work."</i> </li>
+                    <li>Intel.com: Color Models describes and shows illustrations for <a
+                            href="http://graphicdesign.about.com/od/colorbasics/a/rgb.htm" target="_blank">RGB</a>,
+                        CMYK, and many other color models. Just over halfway down the page you'll find a discussion of
+                        HLS (aka HSL) and HSV.<br> <i>"The HLS (hue, lightness, saturation) and HSV (hue, saturation,
+                            value) color models were developed to be more “intuitive” in manipulating with color and
+                            were designed to approximate the way humans perceive and interpret color."</i> </li>
+                    <li>Photozone.de: Color Models covers "HSL and HSV – the non-identical twins of color models" and
+                        others with nice images and detailed explanations.<br> <i>"As a method of describing colors, HSV
+                            is particularly useful when creating what are called color progressions, meaning, in a
+                            restricted sense palettes of related colors having the same or related hues, saturations or
+                            values. In this case, knowing the actual figures for the red, green and blue primaries is
+                            simply not necessary and HSV offers a more intuitive representation of the relationship
+                            between colors. But the thing to be remembered is that HSV is just mapping a particular RGB
+                            color space; it is a different coordinate system describing not more and not less than the
+                            original RGB space."</i> </li>
+                    <li>Rip's Applied Mathematics: Color: HSB (HSV, HSI) again looks at HSB as it relates to RGB with
+                        formulas for expressing saturation and intensity.<br> <i>"I personally understand HSB by its
+                            relationship to RGB. Although hue, H, is the most complicated to describe mathematically, is
+                            the one that is obvious to me. All we do is choose an angle; keep it constant, and we’re
+                            working with tints, tones, and shades of a fixed color."</i> </li>
+                </ul><br>
+                <blockquote class="blockquote blockquote-reverse">
+                    <footer class="blockquote-footer">Wikipedia:
+                        <cite title="Source Title">http://desktoppub.about.com/od/glossary/g/HSV.htm</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://github.com/alitursucular/color-codes-conversion-website-demo" class="github-corner"
+        aria-label="View source on GitHub">
+        <svg width="80" height="80" viewBox="0 0 250 250"
+            style="fill:#fff; color:#2f2f2f; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+            <path
+                d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+                fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+            <path
+                d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+                fill="currentColor" class="octo-body"></path>
+        </svg>
+    </a>
+</body>
+
+</html>
